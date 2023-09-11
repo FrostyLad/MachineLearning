@@ -1,0 +1,1 @@
+import ga#parameters for the ga function: (stringLength,fitnessFunction,nEpochs,populationSize=100,mutationProb=-1,crossover='un',nElite=4,tournament=True)#g = ga.ga(20, 'fF.fourpeaks', 101, 100, 1, 'sp', 4 )g = ga.ga(561, 'fit.fitness', 100, nElite=10, populationSize=100)g.runGA()
